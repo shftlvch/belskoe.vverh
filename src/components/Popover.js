@@ -20,11 +20,15 @@ class Popover extends Component {
 
     render() {
         const props = this.props;
-        if (props.open) {
-            document.body.style.overflow = "hidden";
-        } else {
-            document.body.style.overflow = "";
+
+        if (typeof document !== 'undefined') {
+            if (props.open) {
+                document.body.style.overflow = "hidden";
+            } else {
+                document.body.style.overflow = "";
+            }
         }
+
         return (
             <div className={"modal-over " + (props.open ? 'modal-over_open' : '')}>
                 <div className="container">
