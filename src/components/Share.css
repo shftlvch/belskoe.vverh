@@ -1,0 +1,13 @@
+.share {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.share__item {
+    margin-right: 10px;
+}
+
+.share__item:hover {
+    opacity: .7;
+}

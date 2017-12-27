@@ -1,0 +1,30 @@
+.modal-over {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: none;
+    /*background-color: #ааа;*/
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+    padding: 60px 0;
+}
+
+.modal-over_open {
+    display: flex;
+}
+
+.modal-over__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 50px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.modal-over__close:hover {
+    opacity: .8;
+}

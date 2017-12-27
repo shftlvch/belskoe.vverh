@@ -1,0 +1,20 @@
+.footer {
+    color: #ffffff;
+}
+
+.footer .slide__overlay {
+    /*background: #d86e67;*/
+    background: rgba(216, 110, 103, .7);
+}
+
+.footer__text {
+    padding-top: 53px;
+}
+
+.footer a {
+    color: #ebebeb;
+}
+
+.footer__social {
+    margin-right: 10px;
+}

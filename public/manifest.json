@@ -1,0 +1,16 @@
+{
+  "short_name": "#мне_не_серо_когда",
+  "name": "#мне_не_серо_когда — Центр равных возможностей для детей-сирот «Вверх»",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#ff7f00",
+  "background_color": "#ff7f00",
+  "orientation": "portrait"
+}

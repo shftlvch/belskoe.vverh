@@ -1,0 +1,179 @@
+.main {
+    color: #000000;
+}
+
+.main__btn {
+    margin: 0 auto;
+}
+
+.main a {
+    color: #333;
+}
+
+
+.main .slide__overlay {
+    background: #7abee6;
+}
+
+.main .slide__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.list {
+    margin-bottom: 40px;
+}
+
+.main__description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.list__header {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.list__wrap {
+    font-size: 18px;
+    font-weight: 100;
+    list-style: none;
+}
+
+.list__element {
+}
+
+.template {
+    color: #ffffff;
+    position: relative;
+    margin: 0 auto;
+    width: 605px;
+    height: 315px;
+    background-color: #f6921c;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.template__name {
+    position: absolute;
+    top: 74px;
+    left: 80px;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+.template__input {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
+    line-height: 1;
+    background: none;
+    outline-offset: 0;
+    outline: none;
+    font-size: 52px;
+    color: #fffffe;
+    /*color: #b84c46;*/
+    margin-bottom: 55px;
+    width: 330px;
+    margin-left: 20px;
+
+}
+
+.template__input:focus, .template__input_filled {
+    border: none;
+    font-size: 70px;
+    margin-left: 0;
+}
+
+.template__role {
+    line-height: 1;
+    position: absolute;
+    font-size: 44px;
+    left: 55px;
+    top: 190px;
+}
+
+.template__select {
+    margin-left: 20px;
+}
+
+select.template__select {
+    font-size: 24px;
+    width: 270px;
+    text-align: center;
+}
+
+span.template__select {
+    cursor: pointer;
+    border-bottom: 1px dashed #ebebeb;
+}
+
+span.template__select:hover {
+    opacity: .8;
+}
+
+.template__hashtag {
+    line-height: 1;
+    color: #5a534f;
+    position: absolute;
+    left: 270px;
+    top: 250px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.template__input.template__input_error::placeholder {
+    color: #fbdfe1;
+}
+
+@media screen and (max-width: 414px) {
+    .template {
+        width: 320px;
+        height: 160px;
+    }
+
+    .template__name {
+        top: 35px;
+        left: 40px;
+        font-size: 35px;
+    }
+
+    .template__role {
+        font-size: 22px;
+        left: 27px;
+        top: 80px;
+    }
+
+    .template__input {
+        font-size: 26px;
+        width: 175px;
+    }
+
+
+    .template__input:focus, .template__input_filled {
+        font-size: 35px;
+    }
+
+    .template__select {
+        margin-left: 10px;
+    }
+
+    select.template__select {
+        font-size: 12px;
+        width: 135px;
+    }
+
+    .template__hashtag {
+        left: 135px;
+        top: 125px;
+        font-size: 20px;
+    }
+
+}
