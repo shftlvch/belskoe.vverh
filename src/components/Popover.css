@@ -96,3 +96,10 @@ a.btn_donate {
 .btn .fa {
     margin-right: 7px;
 }
+
+@media screen and (max-width: 414px) {
+    .result__header {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+}

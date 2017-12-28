@@ -177,3 +177,47 @@ span.template__select:hover {
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    .template {
+        width: 290px;
+        height: 151px;
+    }
+
+    .template__name {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+    }
+
+    .template__role {
+        font-size: 20px;
+        left: 27px;
+        top: 85px;
+    }
+
+    .template__input {
+        font-size: 26px;
+        width: 175px;
+    }
+
+
+    .template__input:focus, .template__input_filled {
+        font-size: 35px;
+    }
+
+    .template__select {
+        margin-left: 10px;
+    }
+
+    select.template__select {
+        font-size: 12px;
+        width: 135px;
+    }
+
+    .template__hashtag {
+        left: 135px;
+        top: 115px;
+        font-size: 20px;
+    }
+}
