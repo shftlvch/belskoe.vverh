@@ -28,6 +28,7 @@ class Main extends Component {
                 'катя',
                 'артем',
                 'саша',
+                'ольга',
                 'ховард',
                 'полина',
                 'соня',
@@ -90,7 +91,6 @@ class Main extends Component {
                 console.error(err);
             }
             if (response.hasOwnProperty('body') && response.body !== '') {
-                console.error(response.body);
                 this.setState({
                     pic: response.body.data.object.url,
                     imageGeneratedHash: response.body.data.object.public_id,

@@ -5,13 +5,12 @@
     width: 100%;
     min-height: 100vh;
     display: none;
-    /*background-color: #ааа;*/
-    /*background-color: #fff;*/
     background: linear-gradient(180deg, #7abee6 0%, rgba(255,197,127,1) 70%);
     color: #000;
     box-sizing: border-box;
     padding: 60px 0;
     z-index: 1000;
+    overflow: scroll;
 }
 
 .modal-over_open {

@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import coverMain from "../assets/cover-5.jpg";
+import coverMain from "../assets/cover-footer.jpg";
 
 import "./Footer.css";
 

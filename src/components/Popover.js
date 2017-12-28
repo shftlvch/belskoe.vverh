@@ -64,7 +64,7 @@ class Popover extends Component {
                         </div>
                     </div>
                 </div>
-                <div onClick={this.handleClose} className="modal-over__close"><i class="fa fa-times"
+                <div onClick={this.handleClose} className="modal-over__close"><i className="fa fa-times"
                                                                                  aria-hidden="true"></i></div>
             </div>
         )

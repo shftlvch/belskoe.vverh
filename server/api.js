@@ -52,7 +52,7 @@ class MainApi {
         const options = {};
 
         const base = sharp('src/assets/template.png')
-            .png()
+            .jpeg()
             .toBuffer();
 
         const composite = [
@@ -85,10 +85,6 @@ class MainApi {
                 // });
                 cloudinary.v2.uploader.upload_stream({resource_type: 'image'},
                     (error, result) => {
-                        console.log('upload');
-                        console.log(result);
-                        console.log(error);
-
                         this.saveModel(
                             result.public_id,
                             result,
