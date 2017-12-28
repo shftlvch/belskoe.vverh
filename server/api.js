@@ -2,7 +2,6 @@ const Entry = require('./models/entry');
 const sharp = require('sharp');
 const request = require('request').defaults({encoding: null});
 const cloudinary = require('cloudinary');
-const Vibrant = require('node-vibrant');
 
 cloudinary.config({
     cloud_name: 'vverh',

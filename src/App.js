@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import "./App.css";
 import "./assets/font-awesome/css/font-awesome.css";
 import DocumentMeta from "react-document-meta";
+import templateCover from './assets/template-filled.png'
 
 
 import Page from "./components/Page";
@@ -40,7 +41,7 @@ class App extends Component {
                     keywords: '#лагерь_вверх, Вверх, благотворительность, Центр равных возможностей для детей-сирот'
                 },
                 property: {
-                    'og:image': '',
+                    'og:image': 'http://belkoe.vverh.su' + templateCover,
                 }
             },
             auto: {
