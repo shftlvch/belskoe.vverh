@@ -34,14 +34,14 @@ class App extends Component {
         const meta = {
             title: `#лагерь_вверх — Центр равных возможностей для детей-сирот «Вверх»`,
             description: 'Расскажите друзьям про проект #лагерь_вверх, может быть, благодаря вам у детей из интерната в Бельском-Устье будет больше поводов для улыбок.',
-            canonical: `http://belkoe.vverh.su/`,
+            canonical: `http://belskoe.vverh.su/`,
             meta: {
                 charSet: 'utf-8',
                 name: {
                     keywords: '#лагерь_вверх, Вверх, благотворительность, Центр равных возможностей для детей-сирот'
                 },
                 property: {
-                    'og:image': 'http://belkoe.vverh.su' + templateCover,
+                    'og:image': 'http://belskoe.vverh.su' + templateCover,
                 }
             },
             auto: {
