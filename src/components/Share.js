@@ -34,7 +34,7 @@ class Share extends Component {
                         url={shareUrl}
                         className="share__item__share-button">
                         <FacebookIcon
-                            size={32}
+                            size={48}
                             round />
                     </FacebookShareButton>
                 </div>
@@ -43,7 +43,7 @@ class Share extends Component {
                     <TelegramShareButton
                         url={shareUrl}
                         className="share__item__share-button">
-                        <TelegramIcon size={32} round />
+                        <TelegramIcon size={48} round />
                     </TelegramShareButton>
                 </div>
 
@@ -52,7 +52,7 @@ class Share extends Component {
                         url={shareUrl}
                         separator=":: "
                         className="share__item__share-button">
-                        <WhatsappIcon size={32} round />
+                        <WhatsappIcon size={48} round />
                     </WhatsappShareButton>
                 </div>
 
@@ -64,7 +64,7 @@ class Share extends Component {
                         windowHeight={460}
                         className="share__item__share-button">
                         <VKIcon
-                            size={32}
+                            size={48}
                             round />
                     </VKShareButton>
                 </div>
