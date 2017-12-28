@@ -80,12 +80,10 @@ class MainApi {
             let image = this.getPic(params.name, params.role);
 
             image.then((buff) => {
-
-                sharp(buff).png().toFile('output.png', function (err, info) {
-                    console.log(err);
-                    console.log(info);
-                });
-
+                // sharp(buff).png().toFile('output.png', function (err, info) {
+                //     console.log(err);
+                //     console.log(info);
+                // });
                 cloudinary.v2.uploader.upload_stream({resource_type: 'image'},
                     (error, result) => {
                         console.log('upload');
