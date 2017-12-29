@@ -3,7 +3,7 @@ import React, {Component} from "react";
 import "./App.css";
 import "./assets/font-awesome/css/font-awesome.css";
 import DocumentMeta from "react-document-meta";
-import templateCover from './assets/template-filled.png'
+import templateCover from './assets/template-filled.jpg'
 
 
 import Page from "./components/Page";
