@@ -57,7 +57,7 @@ class MainApi {
 
         const composite = [
             {image: MainApi.getSvg('#ffffff', `я — ${name}`, 140), options: {top: 155, left: 159}},
-            {image: MainApi.getSvg('#ffffff',  `я ${role}`, 88), options: {top: 384, left: 112}},
+            {image: MainApi.getSvg('#ffffff',  `я ${role}`, 88), options: {top: 364, left: 112}},
         ]
             .reduce((input, overlay) => {
                 return input.then((data) => {
